@@ -1,0 +1,11 @@
+/* google-font */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald&family=Poppins:wght@400;700&display=swap');
+
+/* CSS */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
