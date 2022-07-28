@@ -9,3 +9,7 @@ body {
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+
+.img {
+    filter: brightness(50%);
+}
