@@ -13,3 +13,111 @@ body {
 .img {
     filter: brightness(50%);
 }
+
+.text-grey {
+    color: #7d7676;
+}
+
+.overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* Text with image */
+.text-section-bg {
+    background-color: #f1f5f8;
+}
+
+/* responsive */
+@media screen and (max-width:915px) {
+    .student img {
+        min-width: 100%;
+    }
+
+    .carousel-caption {
+        bottom: 0;
+        margin-bottom: 32px;
+    }
+
+    section.banner .carousel-inner .banner-heading {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-caption {
+        bottom: 0;
+        margin-bottom: 32px;
+    }
+
+    section.banner .carousel-inner .banner-heading {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    section.banner .carousel-inner .banner-heading {
+        font-size: 1.5rem !important;
+    }
+
+    .banner-text {
+        line-height: inherit;
+        font-size: 11px;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+
+    .carousel-caption {
+        margin-bottom: 0 !important;
+    }
+
+    .popular-course {
+        flex-direction: column;
+    }
+
+    .popular-course .flex-shrink-0 {
+        width: 100%;
+    }
+
+    .course-img {
+        width: 100%;
+    }
+
+    .padding-20-sm-display {
+        padding: 20px 0 20px 0;
+    }
+
+    .course-statics {
+        flex-wrap: wrap;
+    }
+
+    .modal-btn-div {
+        justify-content: center;
+    }
+
+    .student img {
+        min-width: 100%;
+    }
+
+    .student-info {
+        text-align: center;
+    }
+
+    .carousel-caption {
+        margin-bottom: 14px;
+        right: 0;
+        left: 0;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        display: none;
+    }
+}
